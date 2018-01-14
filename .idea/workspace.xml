@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83c18416-ea20-419f-98c4-590a553b9d22" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tessdata/nep.traineddata" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagetotext.py" afterPath="$PROJECT_DIR$/imagetotext.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screencapturer.py" afterPath="$PROJECT_DIR$/screencapturer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="imagetotext.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imagetotext.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="84" />
+            <state relative-caret-position="252">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -31,11 +29,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ptts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ptts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="screencapturer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screencapturer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
               <folding>
                 <element signature="e#42#74#0" expanded="true" />
               </folding>
@@ -58,8 +66,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/imagetotext.py" />
         <option value="$PROJECT_DIR$/screencapturer.py" />
+        <option value="$PROJECT_DIR$/imagetotext.py" />
       </list>
     </option>
   </component>
@@ -133,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.screencapturer">
+  <component name="RunManager" selected="Python.imagetotext">
     <configuration default="false" name="imagetotext" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,6 +172,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Imagetospeech" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/screencapturer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ptts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Imagetospeech" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ptts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -313,14 +338,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.imagetotext" />
       <item index="1" class="java.lang.String" itemvalue="Python.screencapturer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ptts" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.screencapturer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.imagetotext" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.imagetotext" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ptts" />
+        <item index="2" class="java.lang.String" itemvalue="Python.screencapturer" />
       </list>
     </recent_temporary>
   </component>
@@ -409,10 +436,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ptts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/screencapturer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
           <folding>
             <element signature="e#42#74#0" expanded="true" />
           </folding>
@@ -421,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imagetotext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="84" />
+        <state relative-caret-position="252">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
